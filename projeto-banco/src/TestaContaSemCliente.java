@@ -1,9 +1,13 @@
 public class TestaContaSemCliente {
+
 	public static void main(String[] args) {
-		Conta contaDaMarcela = new Conta(6646,969060);
+
+		Conta contaDaMarcela = new Conta(6646, 969060);
 		System.out.println(contaDaMarcela.getSaldo());
 
+		System.out.println("Cliente: ");
 		contaDaMarcela.setTitular(new Cliente());
+
 		System.out.println(contaDaMarcela.getTitular());
 
 		contaDaMarcela.getTitular().setNome("Marcela");
