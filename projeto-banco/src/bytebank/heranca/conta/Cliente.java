@@ -1,4 +1,5 @@
 package bytebank.heranca.conta;
+
 public class Cliente {
 
     private String nome;
